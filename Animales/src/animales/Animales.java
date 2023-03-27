@@ -28,7 +28,9 @@ public class Animales {
         Leon rey = new Leon("Rey", "Marron", 43);
         System.out.println(rey);
         Perro Pluto = new Perro("Pluto", "Marron", 23);
-        System.out.println(Pluto);     
+        System.out.println(Pluto);
+        Gato Jerry = new Gato("Roberto", "Verde", 13);
+        System.out.println(Jerry);
     }
     
 }
