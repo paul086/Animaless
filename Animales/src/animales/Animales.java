@@ -6,6 +6,7 @@
 package animales;
 
 import Animaless.Gato;
+import Animaless.Perro;
 
 /**
  *
@@ -22,6 +23,11 @@ public class Animales {
         System.out.println(Tom);
         Tom.setColor("Verde");
         System.out.println(Tom.getColor());
+        
+        Perro Pluto = new Perro("Pluto", "Marron", 5);
+        System.out.println(Pluto);
+        Pluto.setColor("Negro");
+        System.out.println(Pluto.getColor());
         
     }
     
